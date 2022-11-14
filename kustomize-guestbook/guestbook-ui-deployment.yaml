@@ -5,7 +5,6 @@ metadata:
   namespace: demo
 spec:
   replicas: 1
-  revisionHistoryLimit: 3
   selector:
     matchLabels:
       app: guestbook-ui
