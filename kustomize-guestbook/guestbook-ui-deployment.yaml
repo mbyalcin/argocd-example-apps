@@ -13,7 +13,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: lowyard/ks-guestbook-demo:0.1
+      - image: lowyard/ks-guestbook-demo:0.2
         imagePullPolicy: IfNotPresent
         name: guestbook-ui
         ports:
