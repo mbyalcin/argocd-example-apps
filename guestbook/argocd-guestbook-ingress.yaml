@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: argocd-guestbook-ingress
-  namespace: default
+  namespace: demo
   annotations:
     nginx.ingress.kubernetes.io/default-backend: guestbook-ui
 spec:
